@@ -1,7 +1,10 @@
 # 6.2 HTTP Server
 
 ## 范式
+
 [参考地址](https://github.com/douyu/jupiter/tree/master/server/xecho/config.go)
+
+
 |  名称 | 类型 | 描述 |
 |:--------------|:-----|:-------------------|
 |`host`| string| server的ip地址，默认``127.0.0.1`` |
@@ -14,6 +17,7 @@
 
 
 ## 示例
+
 ```toml
 [jupiter.server.http]
   host = "127.0.0.1"
